@@ -4,6 +4,8 @@ locals {
 
 variable "project" {
   description = "Your GCP Project ID"
+  default ="crested-acumen-339310"
+  type = string
 }
 
 variable "region" {
